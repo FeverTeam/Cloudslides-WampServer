@@ -20,7 +20,8 @@ Cloudslides-WampServer-Python
 
 测试数据库部署:
 
-WampServer目前基于本地数据库测试，需要在本地部署一个mongo数据库【必须基于原liveppt数据库结构，数据库重命名为Clouslides,原因参见代码配置 https://github.com/FeverTeam/Cloudslides-WampServer/blob/master/src/wamp/PageController.py#L59】（将原liveppt的msql数据库转为mongodb，可通过MongoVUE或类似的mongo GUI工具实现）。
+WampServer目前基于本地数据库测试，需要在本地部署一个mongo数据库【必须基于原liveppt数据库结构，数据库重命名为Clouslides,原因参见代码配置 https://github.com/FeverTeam/Cloudslides-WampServer/blob/master/src/wamp/PageController.py#L59】
+（将原liveppt的msql数据库转为mongodb，可通过MongoVUE或类似的mongo GUI工具实现）。
 
 
 运行
