@@ -20,20 +20,20 @@ Cloudslides-WampServer-Python
 
 测试数据库部署:
 
-WampServer目前基于本地数据库测试，需要在本地部署一个mongodb数据库（将原liveppt的msql数据库转为mongodb，可通过MongoVUE或类似的mongo GUI工具实现）
+WampServer目前基于本地数据库测试，需要在本地部署一个mongo数据库【必须基于原liveppt数据库结构，数据库重命名为Clouslides,原因参见代码配置 https://github.com/FeverTeam/Cloudslides-WampServer/blob/master/src/wamp/PageController.py#L59】（将原liveppt的msql数据库转为mongodb，可通过MongoVUE或类似的mongo GUI工具实现）。
 
 
 运行
 
 Server端:
 
-pythong PageController.py
+python PageController.py
 
 测试Client【获取某会议的当前页码，根据返回的topic进行订阅，每隔5秒翻一页，基于python实现】:
 
-pythong ClientTest.py
+python ClientTest.py
 
 
 接口文档
 
-详见doc目录
+https://github.com/FeverTeam/Cloudslides-WampServer/tree/master/doc
